@@ -36,6 +36,7 @@ namespace ConsoleApp78
             while (!int.TryParse(ReadLine(), out height) == true)
                 {
                 WriteLine("Invalid, type a number!");
+                goto return2;
             }
             
         }
